@@ -3,3 +3,67 @@
 div{
   border: 1px dotted red;
 }
+
+header{
+  border: 1px dotted red;
+}
+
+footer{
+  border: 1px dotted red;
+}
+
+/*Global Body*/
+
+body{
+  background-color: black;
+}
+
+/*Header Layout*/
+
+header{
+  height: 69px;
+  width: 100%;
+  padding:0 10px;
+  display: flex;
+  position: fixed;
+}
+
+/*Content Layout*/
+.maincontent{
+  display:flex;
+  position: relative;
+  top: 69px;
+  flex-direction:column;
+  align-items: center;
+}
+
+.splash{
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  background-position: center;
+}
+
+.teaofthemonth{
+  width: 1000px;
+
+  /*temporary*/ height: 500px;
+}
+
+.locations{
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-position: center;
+}
+
+.contactinfo{
+  height: 200px;
+}
+
+/*Footer Layout*/
+footer{
+  display: flex;
+  /*temp*/background-color: blue;
+}
