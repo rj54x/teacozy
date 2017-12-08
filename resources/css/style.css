@@ -6,6 +6,7 @@ div{
 
 header{
   border: 1px dotted red;
+  top: 0;
 }
 
 footer{
@@ -30,6 +31,8 @@ header{
   padding:0 10px;
   display: flex;
   position: fixed;
+  z-index: 5;
+  background-color: black;
 }
 
 /*Content Layout*/
@@ -43,6 +46,7 @@ header{
   margin: 0 25px;
 }
 
+/*"Splash" Section*/
 .splash{
   display: flex;
   height: 700px;
@@ -65,20 +69,57 @@ header{
   display: flex;
   margin-top: 5px;
   margin-bottom: 0px;
-
 }
 .splashbanner h4{
   display: flex;
   margin-bottom: 5px;
   margin-top: 0px;
-
 }
+
+/*Tea of thje month section*/
 
 .teaofthemonth{
   width: 1000px;
-
-  /*temporary*/ height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
 }
+
+.teaheader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.teaheader h2, .teaheader h4{
+  display: flex;
+  margin: 10px;
+}
+
+.assortedteas{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.teatype{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.teatype img{
+  margin-bottom:10px;
+}
+.teatype h4{
+  margin: 0px;
+}
+
+
+/*Locations Section*/
 
 .locations{
   height: 500px;
