@@ -19,6 +19,19 @@ header{
   z-index: 5;
   background-color: black;
   top: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav{
+  padding-right: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header a{
+  color: seashell;
+  margin: 10px;
 }
 
 /*Content Layout*/
